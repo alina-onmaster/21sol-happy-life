@@ -3,10 +3,6 @@ new Swiper('.swiper.reviews__list-wrap',{
     el: '.swiper-pagination',
     clickable: true,
   },
-  navigation: {
-    nextEl: '.partners__btn-next',
-    prevEl: '.partners__btn-prev'
-  },
   breakpoints: {
     320: {
       slidesPerView: 1,
@@ -24,6 +20,56 @@ new Swiper('.swiper.reviews__list-wrap',{
     },
   },
 });
+
+new Swiper('.swiper.article__slider-wrap--1',{
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  slidesPerView: 1,
+});
+
+new Swiper('.swiper.article__slider-wrap--2',{
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  slidesPerView: 1,
+});
+
+new Swiper('.swiper.article__slider-wrap--3',{
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  slidesPerView: 1,
+});
+
+new Swiper('.swiper.article__slider-wrap--4',{
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  slidesPerView: 1,
+});
+
+new Swiper('.swiper.article__slider-wrap--5',{
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  slidesPerView: 1,
+});
+
+new Swiper('.swiper.article__slider-wrap--6',{
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  slidesPerView: 1,
+});
+
+
 
 wow = new WOW({
   boxClass: 'wow',
